@@ -1,0 +1,259 @@
+
+/* ALL */
+
+
+
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    text-decoration: none;
+}
+
+
+
+
+/* CCS */
+
+
+
+h1{
+    color: black;
+    font-size: 55px;
+    text-align: center;
+    margin: 5px;
+    padding: 0 0 0 285px;
+    
+    
+}
+.header-logo{
+    width: 100px ;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    margin: 10px;
+
+}
+/* Header CSS */
+
+nav.navbar{
+    background-color: rgb(150, 144, 144);
+}
+.navbar-brand{
+    font-size: 150px;
+    margin: -60px;
+    
+
+}
+
+
+
+/* Footer CCS */
+
+
+
+
+footer{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute; 
+    width: 100%;  
+    bottom: 0;
+        
+    
+}
+.media-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0 25px 0 0;
+
+}
+
+
+   
+
+/* Body CSS */
+
+  
+
+body{
+    position: relative;
+    padding-bottom: 10px;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.486),rgb(255, 255, 255))
+                     
+    
+}
+
+h2{
+    text-align: center;
+    padding: 55px;
+    
+}
+
+h3{
+    text-align: center;
+    padding: 125px 65px;   
+
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    padding: 0px;
+    
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; 
+    padding: 0 0 0 0 ;
+}
+
+form{
+    background-color: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: center;
+    padding: 100 60;
+    
+}
+
+div img{
+    width: 300px;
+    border-radius: 15px;
+    
+}
+
+
+/* CLASS CSS */
+
+.aboutUsText{
+    text-align: left;
+    margin: 15px;
+    padding: 25px;
+}
+
+.container-fluid{
+    width: 100%;
+}
+.card-title{
+    margin: 0;
+    padding: 15px;
+}
+.container{
+    border-radius: 25px;
+}
+.container:hover{
+    background-color: red;
+}
+
+.card-button{
+    background-color: orangered;
+    padding: 15px 20px;
+    border-radius: 9px;
+    text-decoration: none;
+    border: 0;
+    
+}
+.card-button:active{
+    background-color: rgb(209, 125, 94);
+
+}
+
+
+/* ID CSS */
+
+#aboutUs{
+    text-align: center;
+    font-size: 55px;
+}
+
+#featuredProducts{
+    text-align: center;
+    padding: 25px 0 0 0;
+   
+}
+
+#cardProduct{
+    text-align: center;
+    align-items: center;
+    margin: 280px;
+    padding: 25px;
+    background-color: rgb(150, 144, 144);
+    width: 60%;
+}
+#payout{
+    font-size: 35px;
+    color: red;
+}
+#sectionCopy{
+    padding: 5px;
+}
+
+
+/* MEDIA QUERIE MOBILE */
+@media screen and (max-width:768px){
+    body{
+        width: 100%;
+    }
+    div img{
+        width: 170px;
+        height: 110px;
+        align-items: center;
+    }
+    #cardProduct{
+        text-align: center;
+        margin: 30px;
+        padding: 0px;   
+    }
+    .card-title{ 
+        padding: 45px 30px; 
+    }
+    footer{
+        position: absolute; 
+        width: 100%;  
+        bottom: 0;
+    }
+    .aboutUsText{
+        margin: 20px;
+        padding: 35px;
+    }
+    .header-logo{
+        width: 80px;
+        height: 80px;
+    }
+    #cardProduct{
+        text-align: center;
+        align-items: center;
+        margin: 90px;
+        padding: 10px;
+        background-color: rgb(150, 144, 144);
+        width: 60%;
+    }
+    .media-logo{
+        display: flex;
+        justify-content: space-between;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        margin: 0 25px 0 0;
+    
+    }
+    .card-button{
+         padding: 10px 15px;
+        
+        
+    }
+    .navbar-brand{
+        margin: 0;
+        
+    
+    }
+
+}
