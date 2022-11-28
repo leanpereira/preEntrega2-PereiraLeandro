@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    padding-bottom: 10px;
+    background-image: $primary_color;
+    h2{
+        text-align: center;
+        padding: 55px;
+        
+    }
+    h3{
+        text-align: center;
+        padding: 125px 65px;   
+    
+    }
+    p{
+        text-align: center;
+        font-size: 15px;
+        padding: 0px;
+        
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end; 
+        padding: 0 0 0 0 ;
+    }
+    div img{
+        width: 300px;
+        border-radius: 15px;
+        
+    }
+    #payout{
+        font-size: 35px;
+        color: red;
+    }
+    #featuredProducts{
+        text-align: center;
+        padding: 25px 0 0 0;
+       
+    }
+    #aboutUs{
+        text-align: center;
+        font-size: 55px;
+    }
+    
+    .aboutUsText{
+        text-align: left;
+        margin: 15px;
+        padding: 25px;
+    }
+    #payout{
+        font-size: 35px;
+        color: red;
+    }
+
+    
+}

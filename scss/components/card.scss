@@ -1,0 +1,36 @@
+main{
+    .container{
+    border-radius: 25px;
+    }
+    .container-fluid{
+    width: 100%;
+    }
+    .card-title{
+        margin: 0;
+        padding: 15px;
+    }
+    
+    .card-button{
+        background-color: $tertiary_color;
+        padding: 15px 20px;
+        border-radius: 9px;
+        text-decoration: none;
+        border: 0;
+        &:active{
+            background-color: rgb(209, 125, 94);
+        
+        }
+        
+    }
+    #cardProduct{
+        text-align: center;
+        align-items: center;
+        margin: 280px;
+        padding: 25px;
+        background-color: $secondary_color;
+        width: 60%;
+    }
+
+
+
+}

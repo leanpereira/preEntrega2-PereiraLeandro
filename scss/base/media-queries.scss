@@ -1,0 +1,63 @@
+//MEDIA QUERIE MOBILE
+
+
+@media screen and (max-width:768px){
+    body{
+        width: 100%;
+    }
+    div img{
+        width: 170px;
+        height: 110px;
+        align-items: center;
+    }
+    #cardProduct{
+        text-align: center;
+        margin: 30px;
+        padding: 0px;   
+    }
+    .card-title{ 
+        padding: 45px 30px; 
+    }
+    footer{
+        position: absolute; 
+        width: 100%;  
+        bottom: 0;
+    }
+    .aboutUsText{
+        margin: 20px;
+        padding: 35px;
+    }
+    .header-logo{
+        width: 80px;
+        height: 80px;
+    }
+    #cardProduct{
+        text-align: center;
+        align-items: center;
+        margin: 90px;
+        padding: 10px;
+        background-color: rgb(150, 144, 144);
+        width: 60%;
+    }
+    .media-logo{
+        display: flex;
+        justify-content: space-between;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        margin: 0 25px 0 0;
+    
+    }
+    .card-button{
+         padding: 10px 15px;
+        
+        
+    }
+    .navbar-brand{
+        font-size: 25px;
+        margin: 0;
+        
+    
+    }
+
+}

@@ -24,9 +24,9 @@ h1{
     text-align: center;
     margin: 5px;
     padding: 0 0 0 285px;
-    
-    
 }
+
+/* Header CSS */
 .header-logo{
     width: 100px ;
     margin: 0px;
@@ -36,18 +36,20 @@ a{
     margin: 10px;
 
 }
-/* Header CSS */
 
 nav.navbar{
     background-color: rgb(150, 144, 144);
 }
 .navbar-brand{
-    font-size: 150px;
+    font-size: 55px;
     margin: -60px;
+    text-decoration: none;
+    list-style-type:none;
+
     
 
 }
-
+/* Header CSS */
 
 
 /* Footer CCS */
@@ -116,6 +118,10 @@ ul{
     padding: 0 0 0 0 ;
 }
 
+
+/* Body CSS */
+
+
 form{
     background-color: rgb(255, 255, 255) ;
     display: flex;
@@ -149,9 +155,7 @@ div img{
 .container{
     border-radius: 25px;
 }
-.container:hover{
-    background-color: red;
-}
+
 
 .card-button{
     background-color: orangered;
@@ -251,6 +255,7 @@ div img{
         
     }
     .navbar-brand{
+        font-size: 25px;
         margin: 0;
         
     
